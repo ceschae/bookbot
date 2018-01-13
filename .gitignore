@@ -1,6 +1,7 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
+/functions
 /node_modules
 
 # testing
@@ -19,3 +20,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# firebase
+.firebaserc
+database.rules.json
+firebase.json
+src/index.js

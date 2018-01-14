@@ -33,3 +33,21 @@
   padding-bottom: 15px;
   margin: 0px;
 }
+
+img {
+  margin: 5px;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+@media (min-width: 800px) {
+  #profile-img {
+    position: absolute;
+    right: 10px;
+  }
+}
